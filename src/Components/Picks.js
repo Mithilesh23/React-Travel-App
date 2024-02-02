@@ -22,6 +22,16 @@ class TopPicks extends Component {
               <i className="fas fa-arrow-right" />
             </div>
           </div>
+
+     <hr 
+        style={{
+          backgroundColor: '#ffbb58',
+          width: '75px',
+          height: '2px',
+          border: 'none',
+          point : 'point',
+        }};
+
           <hr
             style={{
               backgroundColor: '#ffbb58',
@@ -42,6 +52,22 @@ class TopPicks extends Component {
   }
 }
 
+class pickedSlider pickerData={pickedData} />
+  {
+    render() {
+      var settings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        nextArrow: <Right />
+          prevArrow: <Left />
+          };
+
+      80-20%;
+      
+
+"
 class PickedSlider extends React.Component {
   render() {
     var settings = {
@@ -71,8 +97,19 @@ class PickedSlider extends React.Component {
               lastPrice,
               about
             }) => (
+               key= {id}
+              about={about}
+              url={url};
+               <key = {id}
+              about={about},.
+          
               <ExperienceCard
                 key={id}
+                about={about}
+                url={url}
+                description={description}
+                currency={currency}
+                price={currentPrice}
                 city={city}
                 about={about}
                 url={url}
